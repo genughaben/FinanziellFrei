@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- new color scheme -->
+    <color name="colorPrimary">#81C646</color>
+    <color name="colorPrimaryDark">#689f38</color>
+    <color name="colorAccent">#E0FFC6</color>
+
+    <!-- further colors -->
+    <color name="windowBackground">#F5FFEE</color>
+
+    <!-- app theme -->
+    <style name="AppTheme" parent="android:Theme.Light">
+        <!-- basic colors -->
+        <item name="android:colorPrimaryDark" tools:targetApi="lollipop">@color/colorPrimaryDark</item>
+        <item name="android:colorPrimary" tools:targetApi="lollipop">@color/colorPrimary</item>
+        <item name="android:colorAccent" tools:targetApi="lollipop">@color/colorAccent</item>
+        <!-- non basic attributes -->
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:colorBackground">@color/windowBackground</item>
+        <item name="android:colorBackgroundCacheHint">@color/windowBackground</item>
+    </style>
+
 </resources>
