@@ -9,16 +9,4 @@
     <!-- further colors -->
     <color name="windowBackground">#F5FFEE</color>
 
-    <!-- app theme -->
-    <style name="AppTheme" parent="android:Theme.Light">
-        <!-- basic colors -->
-        <item name="android:colorPrimaryDark" tools:targetApi="lollipop">@color/colorPrimaryDark</item>
-        <item name="android:colorPrimary" tools:targetApi="lollipop">@color/colorPrimary</item>
-        <item name="android:colorAccent" tools:targetApi="lollipop">@color/colorAccent</item>
-        <!-- non basic attributes -->
-        <item name="android:windowBackground">@color/windowBackground</item>
-        <item name="android:colorBackground">@color/windowBackground</item>
-        <item name="android:colorBackgroundCacheHint">@color/windowBackground</item>
-    </style>
-
 </resources>

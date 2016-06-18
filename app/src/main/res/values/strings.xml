@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Finanziell Frei</string>
+    <string name="your_way_title">Dein Weg zur \nfinanziellen Freiheit</string>
+    <string name="budget_btn_label">Budgetrechner</string>
+    <string name="your_budget_label">Dein Budget</string>
+    <string name="asset_btn_label">Vermögensrechner</string>
+    <string name="your_asset_label">Dein Vermögen</string>
 </resources>

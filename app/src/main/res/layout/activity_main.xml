@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -10,7 +11,48 @@
     tools:context="com.example.android.finanziellfrei.MainActivity">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textSize="24sp"
+        style="@style/marginTopWithin"
+        android:text="@string/your_way_title" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        style="@style/marginTopWithin"
+        android:background="@android:color/darker_gray"/>
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        style="@style/marginTopWithin"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/budget_btn_label"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        style="@style/marginTopWithin"
+        android:text="@string/your_budget_label" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/marginTopWithin"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/asset_btn_label"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        style="@style/marginTopWithin"
+        android:text="@string/your_asset_label" />
+
+</LinearLayout>
